@@ -89,7 +89,7 @@ export default function GrowthPage() {
                 { course: 'Business Strategy', progress: 35, lessons: '7/20' },
                 { course: 'Growth Hacking', progress: 80, lessons: '16/20' },
               ].map((course) => (
-                <div key={course.name} className="p-3 rounded-xl bg-white/5">
+                <div key={course.course} className="p-3 rounded-xl bg-white/5">
                   <div className="flex justify-between text-sm mb-1">
                     <span className="text-white">{course.course}</span>
                     <span className="text-white/40">{course.lessons}</span>
